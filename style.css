@@ -4,7 +4,7 @@ body{
 .container{
     margin-bottom: 100px;
 }
-.slider-bg{
+.orange-bg{
     background-color: #fceae8;
     border-radius: 10px;
 }
@@ -21,4 +21,38 @@ body{
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.category h1{
+    color: #fff;
+}
+.category img{
+    width: 100px;
+}
+.cat1,.cat2,.cat3{
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.cat1{
+    background: green;
+}
+.cat2{
+    background: #FF136F;
+}
+.cat3{
+    background: orange;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    background: #fff;
+    border-top: none;
+}
+#Contact-us{
+    height: 300px;
+}
+footer{
+    text-align: center;
 }
